@@ -106,22 +106,6 @@ public class Cart extends AppCompatActivity {
 
         }
 
-
-
-//        double total = 0;
-//
-//        for (Food item : cartItems) {
-//
-//            String priceString = item.getPrice()
-//                    .replace("Rs.", "")
-//                    .trim();
-//
-//            double price = Double.parseDouble(priceString);
-//
-//            total += price * item.getQuantity();
-//        }
-//
-//        txtTotal.setText("Total: Rs. " + total);
         updateTotal();
     }
 
